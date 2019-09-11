@@ -1,0 +1,42 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "intro": "node index.js",
+    "1:1": "node ./topics/1_destructuring/1.js",
+    "1:2": "node ./topics/1_destructuring/2.js",
+    "1:3": "node ./topics/1_destructuring/3.js",
+    "1:4": "node ./topics/1_destructuring/4.js",
+    "1:5": "node ./topics/1_destructuring/5.js",
+    "1:6": "node ./topics/1_destructuring/6.js",
+    "1:7": "node ./topics/1_destructuring/7.js",
+    "2:1": "node ./topics/2_spread/1.js",
+    "2:2": "node ./topics/2_spread/2.js",
+    "2:3": "node ./topics/2_spread/3.js",
+    "3:1": "node ./topics/3_promises/1.js",
+    "3:2": "node ./topics/3_promises/2.js",
+    "3:3": "node ./topics/3_promises/3.js",
+    "3:4": "node ./topics/3_promises/4.js",
+    "3:5": "node ./topics/3_promises/5.js",
+    "3:6": "node ./topics/3_promises/6.js",
+    "4:1": "node ./topics/4_tips/1.js",
+    "4:2": "node ./topics/4_tips/2.js",
+    "4:3": "node ./topics/4_tips/3.js",
+    "4:4": "node ./topics/4_tips/4.js",
+    "4:5": "node ./topics/4_tips/5.js",
+    "4:6": "node ./topics/4_tips/6.js",
+    "4:7": "node ./topics/4_tips/7.js",
+    "5:1": "node ./topics/5_rxjs/1.js",
+    "5:2": "node ./topics/5_rxjs/2.js",
+    "5:3": "node ./topics/5_rxjs/3.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "axios-observable": "^1.1.2",
+    "rxjs": "^6.5.3"
+  }
+}
