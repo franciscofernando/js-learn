@@ -5,9 +5,9 @@ const {
 } = require('../../entities');
 
 
-getWeatherObs('santiago')
+getWeatherObs('santiago') // Voy a preguntar por el clima de santiago
 	.subscribe((res) => {
-		console.log('RES:', res.data);
+		console.log('RES:', res.data); // Se ejecuta al resolver
 	}, (err) => {
-		console.log('ERR', err.response.data);
+		console.log('ERR', err.response.data); // Se ejecuta al fallar
 	});

@@ -30,7 +30,8 @@
     "4:7": "node ./topics/4_tips/7.js",
     "5:1": "node ./topics/5_rxjs/1.js",
     "5:2": "node ./topics/5_rxjs/2.js",
-    "5:3": "node ./topics/5_rxjs/3.js"
+    "5:3": "node ./topics/5_rxjs/3.js",
+    "5:4": "node ./topics/5_rxjs/4.js"
   },
   "author": "",
   "license": "ISC",
